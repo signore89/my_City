@@ -1,0 +1,10 @@
+.head-text {
+   position:relative;
+}
+.text-on-image {
+  position:absolute;
+  top: 50px;
+  right: 10%;
+  left: 10%;
+  bottom: 15%;
+}
