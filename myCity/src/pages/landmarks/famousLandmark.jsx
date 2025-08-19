@@ -12,6 +12,7 @@ function FamouseLandmark(){
             <h2>Набережная</h2>
             <div className = "head-image">
                 <img src= {wall}/>
+                <Outlet/>
             </div>
        </div>
        

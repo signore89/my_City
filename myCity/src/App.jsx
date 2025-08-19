@@ -17,9 +17,9 @@ function App() {
         <Routes>
           <Route path="home" element={<Description/>}/>
           <Route path="landmarks" element={<FamouseLandmark/>}>
-            {/* <Route
+            <Route
                 path="otherlandmarks"
-                element={<OtherLandmark/>}/> */}
+                element={<OtherLandmark/>}/>
           </Route>
           <Route path="landmarks/otherlandmarks" element={<OtherLandmark/>}/>
           <Route path="gallery/*" element={<Gallery/>}>
